@@ -5,4 +5,5 @@ export const isAuth = async(req:Request, res:Response, next:NextFunction)=>{
         res.status(401).send({message:"Login First"})
     }
     next();
+    
 }
