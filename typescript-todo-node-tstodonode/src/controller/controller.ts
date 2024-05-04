@@ -14,6 +14,7 @@ declare module "express-session" {
   }
 }
 
+
 export const register = async(req:Request, res:Response)=>{
     try {
         const {name, email, password} = req.body;
