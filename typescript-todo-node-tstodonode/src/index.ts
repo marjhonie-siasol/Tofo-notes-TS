@@ -20,13 +20,8 @@ app.use(session({
 
 const PORT = process.env.PORT || 8080;
 
-
-
 import userRouter from './routers/routes';
 app.use(userRouter);
-
-
-
 
 
 
