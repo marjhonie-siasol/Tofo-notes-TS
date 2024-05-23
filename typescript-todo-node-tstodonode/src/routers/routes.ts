@@ -22,8 +22,6 @@ userRouter.get("/addtodo",isAuth,async(req:Request, res:Response)=>{
 });
 
 
-
-
 userRouter.get("/get",isAuth, async(req:Request, res:Response)=>{
     const user = req.session.user?._id;
     const userTodo = await todoModel.findOne({userId: user});
