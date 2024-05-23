@@ -74,7 +74,7 @@ export const createTodo =async (req:Request, res:Response) => {
 }
 
 
-//AdminSide Get Todo Of User
+
 export const adminSide = async(req:Response, res:Response)=>{
     try {
         
