@@ -2,7 +2,6 @@ import mongoose,{Schema, model, connect} from 'mongoose';
 
 import ITodo from '../interface/todoInterface';
 
-
 const todoSchema = new Schema({
     id:{
         type:"string",
