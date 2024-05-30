@@ -16,6 +16,5 @@ const todoSchema = new Schema({
     }
 });
 
-
 const todoModel = model<ITodo>("Todos", todoSchema);
 export default todoModel;
