@@ -10,6 +10,7 @@ db.on("error", ()=> console.log("DB Connection Error"));
 db.once("open", ()=>{console.log("DB Connected");
 });
 
+
 export default db;
 
 
