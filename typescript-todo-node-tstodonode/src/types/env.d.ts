@@ -7,5 +7,6 @@ declare global {
         MONGO_URI: string;
         SECRET: string
         }
+        
     }
 }
